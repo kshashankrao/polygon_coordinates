@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>514</width>
-    <height>263</height>
+    <width>517</width>
+    <height>252</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -20,50 +20,11 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="load">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>70</y>
-      <width>99</width>
-      <height>27</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Load</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="input_path">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>30</y>
-      <width>491</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-      <horstretch>1</horstretch>
-      <verstretch>1</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="html">
-     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1.jpg&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
    <widget class="QTextBrowser" name="textBrowser">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>110</y>
+      <x>260</x>
+      <y>100</y>
       <width>211</width>
       <height>101</height>
      </rect>
@@ -83,30 +44,40 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;x - exit&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>68</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Image Dir:</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="browse">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>70</y>
-      <width>99</width>
-      <height>27</height>
+      <x>270</x>
+      <y>60</y>
+      <width>111</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Browse</string>
+     <string>Browse Image</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="load">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>60</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="textbox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>451</width>
+      <height>31</height>
+     </rect>
     </property>
    </widget>
   </widget>
@@ -115,7 +86,7 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>514</width>
+     <width>517</width>
      <height>25</height>
     </rect>
    </property>
